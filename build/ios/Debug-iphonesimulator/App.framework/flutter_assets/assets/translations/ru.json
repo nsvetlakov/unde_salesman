@@ -1,0 +1,8 @@
+{
+  "general": {
+    "title": "ТеремОК",
+    "wrong_file_format": "Неправильный формат файла",
+    "unsupported_file_format": "Формат '{}' не поддерживается",
+    "zip_error": "Ошибка сжатия файла"
+  }
+}

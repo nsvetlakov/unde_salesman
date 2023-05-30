@@ -10,26 +10,43 @@ environment:
 
 
 dependencies:
-  flutter:
-    sdk: flutter
   cupertino_icons: ^1.0.2
   # Пакет с флагами стран
   dash_flags: ^0.1.1
-  # Пакет гибкой сетки
-  flexible_grid_view: ^0.0.2
-  # State management
-  get: ^4.6.5
+  # Пакет  об устройстве
+  device_info_plus: ^9.0.1
   # powerful HTTP client
   dio: ^5.1.2
+   # Пакет для локализации
+  easy_localization: ^3.0.2
+  # Пакет гибкой сетки
+  flexible_grid_view: ^0.0.2
+  flutter:
+    sdk: flutter
+  # Пакет для работы с окружением
+  flutter_dotenv: ^5.0.2
+  # пакет по работе с svg иконками
+  flutter_svg: ^2.0.6
+  # State management
+  get: ^4.6.5
+  # Пакет  об устройстве
+  package_info_plus: ^4.0.1
+  # cache
+  shared_preferences: ^2.1.1
+  
+  
+  vfx_flutter_common:
+    git:
+      url: https://gitlab.com/frostyland/vfx_flutter_common.git
+      ref: "torexo"
 
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  
-  flutter_lints: ^2.0.0
+  # линтер
+  very_good_analysis: ^4.0.0+1
 
 
 flutter:
@@ -40,8 +57,8 @@ flutter:
   assets:
     - assets/
     - assets/images/
-    
-
+    - assets/translations/
+  
   #   - images/a_dot_ham.jpeg
 
   # To add custom fonts to your application, add a fonts section here,

@@ -36,9 +36,16 @@ class AppColors {
   /// Дополнительный (цвет цены акционных товаров цвет ошибки)
   static const red = Color(0xFFD33E3E);
 
-  /// Дополнительный (плашка, которая обозначает акционные товары с надписью Promotion)
+  /// Дополнительный (плашка, которая обозначает акционные товары
+  /// с надписью Promotion)
   static const promo = Color(0xFFD6432F);
 
   /// Дополнительный (плашка, которая обозначает товары TOP SALES)
   static const topSales = Color(0xFFFA8417);
+
+  /// тень для кнопок зеленая
+  static const shadowGreen = Color(0xFF85B89A);
+
+  /// тень для кнопок серая
+  static const shadowGrey = Color(0xFFC4C7C5);
 }
