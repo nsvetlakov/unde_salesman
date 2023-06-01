@@ -1,8 +1,0 @@
-{
-  "general": {
-    "title": "TeremOK",
-    "wrong_file_format": "Wrong file format",
-    "unsupported_file_format": "Format '{}' not supported",
-    "zip_error": "File compression error"
-  }
-}
