@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:unde_salesman/core/ext.dart';
 import 'package:unde_salesman/ui/shared/icons.dart';
-import 'package:unde_salesman/ui/shared/widgets/buttons/app_button.dart';
 import 'package:unde_salesman/ui/shared/widgets/app_checkbox_text.dart';
 import 'package:unde_salesman/ui/shared/widgets/app_input.dart';
 import 'package:unde_salesman/ui/shared/widgets/app_scaffold_auth/app_scaffold_auth.dart';
+import 'package:unde_salesman/ui/shared/widgets/buttons/app_button.dart';
 
 /// Экран авторизации
 class LoginScreen extends StatelessWidget {

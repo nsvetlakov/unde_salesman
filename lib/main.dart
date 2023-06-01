@@ -56,7 +56,7 @@ class App extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       navigatorKey: Get.key,
-      initialRoute: AppRoutes.signup,
+      initialRoute: AppRoutes.tmpScreens,
       getPages: routes,
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
